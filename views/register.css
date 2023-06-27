@@ -1,0 +1,91 @@
+body {
+    background-color: #F9F5F1;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.area-Login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+    padding-top: 0px;
+}
+
+.login form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.login input {
+    margin-top: 10px;
+    border-color: #DF3821;
+    padding-left: 10px;
+    color: #1E0D0B;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.logo h1#smart {
+    color: #F08C2B;
+}
+
+.logo h1#pizza {
+    color: #DF3821;
+}
+
+.alert-danger{
+    display: flex;
+    align-items: center;
+    background-color: #E86E5E;
+    padding-left: 10px;
+    color: #D6341F;
+    height: 45px;
+    border-radius: 10px;
+}
+
+#smart,
+#pizza {
+    display: inline-block;
+    font-family: 'Noto Sans Kannada', sans-serif;
+    font-size: 90px;
+}
+
+input::placeholder {
+    color: #1E0D0B;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    display: block;
+    background-color: #F08C2B;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-color: #DF3821;
+}
+
+a {
+    text-decoration: none;
+}
+
+a#cadastro {
+    margin-top: 5px;
+    color: #F08C2B;
+    margin-left: 10px;
+    text-decoration: underline;
+}

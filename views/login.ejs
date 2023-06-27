@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar • Smart Pizza</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@100;200;300;400;500" rel="stylesheet">
+</head>
+
+<body>
+    <section class="area-Login">
+
+        <div class="logo">
+            <a href="/">
+                <h1 id="smart">Smart</h1>
+                <h1 id="pizza">Pizza</h1>
+            </a>
+        </div>
+
+        <div class='login'>
+
+            <form action="/login" method="post">
+
+                <% if (messages.error) { %>
+                    <div class="alert-danger">
+                        <strong>
+                            <%= messages.error %>
+                        </strong>
+                    </div>
+                    <% } %>
+
+                <input type="email" name="email" placeholder="Seu email" autofocus>
+                <input type="password" name="password" placeholder="sua senha">
+                <input type="submit" value="Acessar">
+            </form>
+            <a id="cadastro" href="/register">Registrar minha empresa</a></p>
+        </div>
+    </section>
+
+</body>
+
+</html>
