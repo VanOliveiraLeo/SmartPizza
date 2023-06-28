@@ -34,10 +34,21 @@
                     </div>
                     <% } %>
 
+                    <% if (errors && errors.msg) { %>
+                        <div class="alert-danger">
+                          <strong>
+                            <%= errors.msg %>
+                          </strong>
+                        </div>
+                      <% } %>
+
                 <input type="text" name="name" placeholder="Nome da empresa" autofocus>
                 <input type="email" name="email" placeholder="Digite seu email" autofocus>
-                <input type="password" name="password" placeholder="sua senha">
+                <input type="password" name="password" placeholder="crie uma senha">
+                <input type="password" name="confirmpassword" placeholder="confirme a senha">
                 <input type="submit" value="Cadastrar-se">
+
+
             </form>
             <a id="cadastro" href="/login">Já possuo cadastro</a></p>
         </div>
