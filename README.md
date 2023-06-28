@@ -10,12 +10,13 @@ Site para a disciplica de programação web 01
 -> Setar um arquivo .env pessoal para salvar dados sensiveis  
 
 ======================================= créditos ===========================================
- Chats usados no chatGPT para resolver erros e ajudar na criação                     
+ 
+ ->Chats usados no chatGPT para resolver erros e ajudar na criação                     
 ||                                                                                      
 ||* https://chat.openai.com/share/b0d13488-91bb-49f7-bd77-ecfd4c07967f                 
 ||* https://chat.openai.com/share/7ccc5434-b321-449a-9233-34a2a2726016                   
 ||                                                                                   
- Videos tutoriais que me ajudaram na criação da minha aplicação front + back-end    
+ ->Videos tutoriais que me ajudaram na criação da minha aplicação front + back-end    
 ||                                                                                  
 ||* https://youtu.be/lBRnLXwjLw0                                                         
 ||* https://youtu.be/l8aGNhOD91k                                               
