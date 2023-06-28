@@ -9,7 +9,7 @@ Site para a disciplica de programação web 01
 
 -> Setar um arquivo .env pessoal para salvar dados sensiveis  
 
-======================================= créditos ===========================================
+================================= créditos =====================================
  
  ->Chats usados no chatGPT para resolver erros e ajudar na criação                     
                                                                                       
@@ -25,5 +25,5 @@ Site para a disciplica de programação web 01
   * https://youtu.be/S6VE2lsAGo0                                                        
   * https://youtu.be/c6zI1gCaO-c 
 
-======================================= /créditos ===========================================
+================================= /créditos =====================================
 
