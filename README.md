@@ -7,7 +7,8 @@ Site para a disciplica de programação web 01
 2. npm install express mongoose jsonwebtoken path express-flash express-session
 3. npm install method-override ejs cookie-parser multer fs nodemailer mailgen
 
-==== créditos ====
+========= créditos =========
+
 -> Chats usados no chatGPT para resolver erros e ajudar na criação 
 
 * https://chat.openai.com/share/b0d13488-91bb-49f7-bd77-ecfd4c07967f
