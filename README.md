@@ -1,5 +1,5 @@
 # SmartPizza
-Site para a disciplica de programação web 01
+Site para a disciplina de programação web 01
 
 -> Para rodar essa aplicação você deve baixar os node modules
 1. npm init
